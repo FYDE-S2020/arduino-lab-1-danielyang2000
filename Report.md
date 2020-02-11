@@ -1,30 +1,30 @@
-Name:
+Name: daniel yang
 
-EID:
+EID: djy348
 
-Team Number:
+Team Number:f13
 
 ## Questions
 
 1. Why does your program need a setup and a loop?
 
-    your answer here
+    set up is needed to initialize the program and variables and loop has the codes that the program runs forever unless the program is stopped
 
 2. What is the downside to putting all your code in a loop?
 
-    your answer here
+   Putting all the code in a loop will mostly likely make it difficult to debug if problems pop up
 
 3. Why does your code need to be compiled?
 
-    your answer here
+    the code is compiled so that the computer can understand the language and run the program
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-    your answer here
+    the LED starts to flick constantly when the frequency is lowered
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
-    your answer here
+    so that it forms a circuit
 
 6. What is the difference between synchronous and asynchronous communication?
 
@@ -61,7 +61,7 @@ Team Number:
 ## Screenshots
 
 Procedure A, step 1:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Blinker.png)
 
 Procedure A, step 4:
 ![Put path to your image here ->](img/placeholder.png)
