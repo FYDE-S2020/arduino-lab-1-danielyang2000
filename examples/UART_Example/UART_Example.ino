@@ -6,7 +6,7 @@ Type a message in the Serial monitor. It will send it between Serial ports and e
 Required Library: ESPSoftwareSerial v5.4.0 
 Very impotant to use the correct version!
 
-
+//13.756ms
 */
 
 

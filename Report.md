@@ -20,43 +20,43 @@ Team Number:f13
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-    the LED starts to flick constantly when the frequency is lowered
+    the LED starts to flick constantly when the frequency is lowered. One of the solution is to increase the frequency so that LED doesn't flick noticeably.Real dimmers change the voltage waveform applied to the LED
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
-    so that it forms a circuit
+    so that logic analyzer can have a reference to the ground voltage of the ESP32 and closes the circuit 
 
 6. What is the difference between synchronous and asynchronous communication?
 
-    your answer here
+    Synchronous communication means that two or more people exchange information in real-time.Asynchronous communication refers to the exchange of data between two or more people without the requirement for all the recipients to respond immediately.
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    your answer here
+    sent 5 bytes in 13.756ms
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+    snet 5 bytes in .131ms
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+    SPI is synchronous while UART is asynchronous
 
 10. list one pro and one con of UART
 
-    your answer here
+    UART required less wires but it's slower compared to SPI
 
 11. list one pro and one con of SPI
 
-    your answer here
+    SPI is really fast but requires more wires
 
 12. list one pro and one con of I2C
 
-    your answer here
+    I2C uses only 2 pins but it need external resistors
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+    I2c's wires are open drain and thus pull up and pull down resistors are needed
 
 ## Screenshots
 
@@ -64,10 +64,10 @@ Procedure A, step 1:
 ![Put path to your image here ->](img/Blinker.png)
 
 Procedure A, step 4:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Dimmer.png)
 
 Procedure B, UART:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/UART.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/SPI.png)

@@ -12,9 +12,9 @@
  * SCLK: Clock signal. We will use 1MHz. You can try experimenting with other speeds and profiling them.
  * CS or SS: Chip Select, aka Slave Select. This tells the ESP32 or the Slave that they should be listening. It is active LOW. 
  * Arduino doesn't handle CS for you, it must be set before and after sending the message.
- * 
+ * .131ms
  * Created 1/15/2019 by Rita Kambil
- */
+ */ 
 
 #include <SPI.h>
 
@@ -25,7 +25,7 @@ SPIClass *vspi = NULL;
 
 void setup()
 {
-    Serial.begin(115200);
+    Serial.begin(9600);
 
     //initialise two instances of the SPIClass attached to VSPI and HSPI respectively
     vspi = new SPIClass(VSPI);
